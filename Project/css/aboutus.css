@@ -1,0 +1,247 @@
+body,
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.05em;
+}
+.page{
+	height: 300px;
+	width: 100%;
+	background-image: url('../images/scatter-doodle-1.png');
+	opacity:0.9;
+	display: table;
+}
+.page-header{
+	display: table-cell;
+	vertical-align: middle;
+}
+.page-header a{
+	font-size: 15px;
+	color: #fff;
+	border: solid 1px #eee;
+	border-radius: 100px;
+	text-decoration: none;
+	padding: 8px;
+	margin-left: 600px;
+}
+.page-header .header{
+	color: #fff;
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 600px;
+	margin-top: 20px;
+}
+.page-header a span{
+	color:  #3764EB;
+}
+
+
+
+.contact-page {
+            padding-top: 20px;
+            background: #fff;
+            margin-top: -10px;
+}
+.center {
+            font-size: 12px;
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-align: center;
+            color: #fff;
+            text-transform: uppercase;
+}
+
+
+/******************
+NAV BAR
+
+**********************/
+
+h1{
+    font-size: 20px;
+    color: #fff;
+    
+}
+.header-title h1 small{
+    color: #fff;
+}
+
+.header-title {
+    background: #3764EB;
+    padding: 5px;
+    padding-left: 200px;
+}
+
+.bg-white{
+    background-color: transparent;
+    border: none;
+}
+
+.icons i{
+    padding: 0 10px;
+    color: #eee;
+}
+
+.header-icons, .icons{
+    background: #444;
+}
+
+
+
+.pad-right{
+    padding-right: 40px;
+}
+
+
+/*********************************************
+        OUR TEAM SECTION CSS
+**********************************************/
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/bg-our-tem.jpg);
+    background-size: cover;
+}
+
+.card{
+    box-sizing: border-box;
+}
+.card-content p{
+    margin: 0;
+    font-weight: 400;
+}
+
+.card-content .social-icons{
+    padding-bottom: 10px;
+}
+.card-content i{
+    background-color: #eee;
+    color: #aaa;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+
+.card-content i:hover{
+    background-color: #3764EB; 
+    color: #000;
+}
+
+
+/*****************************************************
+        Subscribe
+******************************************************/
+
+#subscribe{
+    background-color: #aaa;
+    background-image: url(../images/scatter-doodle-1.png);
+}
+
+
+
+  
+
+.font-2x{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bolder;
+    
+}
+
+body .input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: right;
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.pad{
+    padding-top: 10px;
+}
+
+
+#subscribe{
+    padding: 30px 0;
+}
+
+
+
+/**************************************************************
+        CONTACT US CSS
+    
+*****************************************************************/
+
+
+.pad-top{
+    padding-top: 50px;
+}
+
+.contact-image{
+    padding-bottom: 20px;
+}
+.contact-image i{
+    background: #3764EB;
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+
+#contact .content-inner{
+    padding-top: 50px;
+}
+
+.map-container-2{
+    height: 500px;
+}
+
+
+
+#consult-hub{
+    background: #888;
+    background-image: url(../images/scatter-doodle-1.png);
+}
+.font-consult{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.consulthub-list{
+    padding-left: 0;
+}
+.consulthub-list li {
+    text-decoration: none;
+    list-style: none;
+    padding-top: 10px;
+    
+}
+.consulthub-list li a{
+    color: #fff;
+}
+
+
+.txt-white{
+    color: #fff;
+}
+
+.font-consult small{
+    color: #fff;
+}
+
+.consulthub-list li a:hover{
+    color: #3764EB;
+    text-decoration: none;
+} 
+.consulthub-list li a:active{
+    text-decoration: none;
+}
+/*copyright*/
+.copyright-cg{
+	background-color: #000;
+	width: 100%;
+	padding: 10px;
+}

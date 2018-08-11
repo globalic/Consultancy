@@ -1,0 +1,497 @@
+/*************************************************
+
+        PROJECT NAME     :     CONSSULTANCY
+
+                    DEFAULT VALUES
+        FONT             :      Open Sans
+         :     #3764EB (Buttons, Icons, Lines, &Bg)
+
+        Steel Grey       :      #41464B (Headings)
+
+        Blue Bayoux      :      #64707B (Paragraphs)
+    
+        White            :      #FFF (Text with darg bg)
+
+        Black            :      #000
+
+
+*************************************************/
+body,
+html{
+    height: 100%;
+    
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+h2{
+    text-transform: uppercase;
+    color: #41464B;
+    font-weight: 400;
+}
+span.txt-blue{
+    color: #3764EB;
+}
+
+.txt-blue{
+     color: #3764EB;
+}
+p{
+    color: #64707B;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/*************************************************
+                BUTTON SECTION GENERIC
+*************************************************/
+
+.btn-general{
+    border: solid 2px #fff;
+    border-radius: 0;
+    padding: 12px 26px;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+
+.btn-white{
+    border-color: #fff;
+    color: #fff;
+}
+.btn-white:hover,
+.btn-white:focus{
+    background: #fff;
+    color: #41464B;
+}
+.btn-blue{
+       border: none;
+    background: #3764EB;
+    color: #fff;
+}
+.btn-blue:hover,
+.btn-blue:focus{
+     border-color: #3764EB;
+    color: #000;
+    background: #fff;
+    border-left: solid 1px #eee;
+    
+}
+/***********************************************************
+        GENERAL SECTION FOR HEADER
+************************************************************/
+
+.content-header h2{
+    font-size: 34px;
+    margin-top: 0;
+    font-weight: 200;
+    margin-bottom: 0;
+    
+}
+
+.content-header-name h3{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 0;
+    padding-bottom: 20px;
+    
+}
+
+.content{
+    height: 100%;
+}
+
+
+
+/*********************************************
+        OUR TEAM SECTION CSS
+**********************************************/
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/bg-our-tem.jpg);
+    background-size: cover;
+}
+
+.card{
+    box-sizing: border-box;
+}
+.card-content p{
+    margin: 0;
+    font-weight: 400;
+}
+
+.card-content .social-icons{
+    padding-bottom: 10px;
+}
+.card-content i{
+    background-color: #eee;
+    color: #aaa;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+
+.card-content i:hover{
+    background-color: #3764EB; 
+    color: #000;
+}
+
+.card img{
+    width: 180px;
+    
+    height: 180px;
+    background-size: cover;
+}
+/*****************************************************
+        Subscribe
+******************************************************/
+
+#subscribe{
+    background-color: #aaa;
+    background-image: url(../images/scatter-doodle-1.png);
+}
+
+
+
+  
+
+.font-2x{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bolder;
+    
+}
+
+body .input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: right;
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.pad{
+    padding-top: 10px;
+}
+
+
+#subscribe{
+    padding: 30px 0;
+}
+
+
+
+/**************************************************************
+        CONTACT US CSS
+    
+*****************************************************************/
+
+
+.pad-top{
+    padding-top: 50px;
+}
+
+.contact-image{
+    padding-bottom: 20px;
+}
+.contact-image i{
+    background: #3764EB;
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+
+#contact .content-inner{
+    padding-top: 50px;
+}
+
+#map-container-2{
+    height: 500px;
+}
+
+
+
+#consult-hub{
+    background: #888;
+    background-image: url(../images/scatter-doodle-1.png);
+}
+.font-consult{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.consulthub-list{
+    padding-left: 0;
+}
+.consulthub-list li {
+    text-decoration: none;
+    list-style: none;
+    padding-top: 10px;
+    
+}
+.consulthub-list li a{
+    color: #fff;
+}
+
+
+.txt-white{
+    color: #fff;
+}
+
+.font-consult small{
+    color: #fff;
+}
+
+.consulthub-list li a:hover{
+    color: #3764EB;
+    text-decoration: none;
+} 
+.consulthub-list li a:active{
+    text-decoration: none;
+}
+
+
+
+/******************
+NAV BAR
+
+**********************/
+
+h1{
+    font-size: 20px;
+    color: #fff;
+    
+}
+.header-title h1 small{
+    color: #fff;
+}
+
+.header-title {
+    background: #3764EB;
+    padding: 5px;
+    padding-left: 200px;
+}
+
+.bg-white{
+    background-color: transparent;
+    border: none;
+}
+
+.icons i{
+    padding: 0 10px;
+    color: #eee;
+}
+
+.header-icons, .icons{
+    background: #444;
+}
+
+
+
+.pad-right{
+    padding-right: 40px;
+}
+
+
+
+
+
+
+
+
+/*****************
+
+
+
+***************/
+
+
+/****************SERVICES SECTION****************/
+#services{
+	height: 80%;
+	width: 100%;
+	background-color: #eee;
+	padding-top: 25px;
+    background-image: url(../images/scatter-doodle-1.png);
+}
+.strategy{
+	position: relative;
+	
+}
+.service-info{
+	position: absolute;
+	background-color: white;
+	padding: 5px;
+	width: 250px;
+	margin-left: 20px;
+	margin-top: 0px;
+	box-sizing: border-box;
+	top:185px;
+}
+.service-heading{
+	font-size: 20px;
+	
+}
+.service-para{
+	font-size: 10px;
+}
+/*animation*/
+.image:hover h2{
+    display: block;
+    opacity: 1;
+}
+h2{
+     position: absolute;
+   width: 250px;
+    height: 250px;
+   top: 0px;
+    bottom: 0px;
+    margin-top: 10px;
+     display: none;
+    background: rgba(0,0,0,0.7);
+    
+}
+/***************** Study************************/
+.study-links li{
+	display:inline-block;
+	margin-right: 20px;
+}
+.study-links{
+	background-color: #eee;
+	align-content: center;
+	height: 60px;
+	padding: 20px;
+	border-radius: 100px;
+}
+.study-links li:hover{
+	cursor: pointer;
+
+}
+
+.study-top{
+	margin-top: 30px;
+	margin-left: 25px;
+}
+.study-left{
+	margin-left: 80px;
+}
+.study-button{
+	margin-top: 25px;
+	margin-bottom: 30px;
+} 
+
+
+/***************STUDY**********************/
+#choose{
+background-image: url('../images/service5.jpg');
+ padding-top: 25px;
+}
+.choose-item{
+	padding: 20px 0;
+	
+	cursor: pointer;
+	
+}
+
+.choose-item-icon .fa{
+	color: #fff;;
+	float: left;
+	padding: 15px;
+	margin-right: 25px;
+	width: 75px;
+	height: 75px;
+	box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+	border:solid 1px #3764EB;
+	border-radius: 100px;
+}
+.choose-item:hover .choose-item-icon .fa{
+	color: #fff;
+	background: #3764EB;
+	border-radius: 100px;
+}
+.choose-item-title .text-heading{
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0 0 10px;
+	color: #fff;;
+}
+.choose-item-desc p{
+	margin: 0;
+	padding-left: 100px;
+	font-size: 12px;
+	color: #eee;;
+}
+ .header-white{
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 400;
+}
+
+
+.choose-left{
+	margin-left: 60px;
+	margin-right: 0;
+}
+.choose-right{
+	margin-right: 60px;
+	
+}
+.choose-middle{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+/*animation*/
+.card{
+ animation-duration: 1s;
+    animation-delay: .5s;}
+.stratergy-list .col-md-4 .text-center{
+     animation-duration: 1s;
+    animation-delay: .5s;
+}
+/***************************************************/
+/*********************
+
+Home section
+***********************/
+
+.home-img{
+    background-image: url(../images/homebackground.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.home-content{
+    width: 100%;
+    height: 100%;
+    display: table;
+    
+}
+
+.home-content-inner h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: bolder
+}
+.home-content-inner p{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.home-content-inner{
+    display: table-cell; 
+    vertical-align: middle;
+	text-align: center;
+}
+
+#home{
+    height: 100%;
+}
